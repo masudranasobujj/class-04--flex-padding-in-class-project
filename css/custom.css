@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .col{
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+}
+.container .col h1{
+    margin: 0;
+    color: #fff;
+    font-size: 30px;
+}
+.container .col p{
+    margin: 0px;
+    color: #fff;
+    font-size: 20px;
+}
+.container .col .box{
+    padding: 15px;
+}
+.orange{
+    background-color: #ffcf77;
+}
+.red{
+    background-color: #eb7171;
+}
+.green{
+    background-color: #92ff92;
+}
